@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { History, Clock, FileText, Calendar } from 'lucide-react';
+import { History, Clock } from 'lucide-react';
 import Header from './components/Header';
 import FilterPanel from './components/FilterPanel';
 import ScanButton from './components/ScanButton';
@@ -7,6 +7,8 @@ import ResultsTable, { StockResult } from './components/ResultsTable';
 import LongTermScanner, { LongTermResult } from './components/LongTermScanner';
 import HistorySidebar from './components/HistorySidebar';
 import Footer from './components/Footer';
+
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
 
 function App() {
   const [mode, setMode] = useState<'swing' | 'longterm'>('swing');
@@ -32,7 +34,7 @@ function App() {
   const fetchHistory = async () => {
     setIsHistoryLoading(true);
     try {
-      const response = await fetch('http://localhost:8000/history');
+      const response = await fetch(`${API_URL}/history`);
       const data = await response.json();
       setHistoryItems(data);
     } catch (error) {
@@ -45,7 +47,7 @@ function App() {
   const handleLoadHistory = async (filename: string) => {
     setIsLoading(true);
     try {
-      const response = await fetch(`http://localhost:8000/history/${filename}`);
+      const response = await fetch(`${API_URL}/history/${filename}`);
       const data = await response.json();
 
       // Determine type and set results accordingly
@@ -82,9 +84,9 @@ function App() {
     try {
       let url = '';
       if (mode === 'swing') {
-        url = `http://localhost:8000/scan?strategy=${selectedStrategy}`;
+        url = `${API_URL}/scan?strategy=${selectedStrategy}`;
       } else {
-        url = `http://localhost:8000/scan/long-term`;
+        url = `${API_URL}/scan/long-term`;
       }
 
       const response = await fetch(url);
