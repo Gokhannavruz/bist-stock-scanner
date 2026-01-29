@@ -1,0 +1,274 @@
+{
+    "timestamp": "2026-01-28T14:40:55.659516",
+    "type": "swing_all",
+    "count": 19,
+    "data": [
+        {
+            "code": "ODAS",
+            "price": 5.5,
+            "volumeChange": 22.3,
+            "rsi": 62.68,
+            "score": 10,
+            "strategies": [
+                "Momentum Breakout"
+            ],
+            "estimated_holding_period_days": 2,
+            "risk_level": "Low",
+            "reason": "Momentum Breakout + strong volume + healthy RSI",
+            "priority_score": 60
+        },
+        {
+            "code": "THYAO",
+            "price": 301.75,
+            "volumeChange": 6.5,
+            "rsi": 63.45,
+            "score": 18,
+            "strategies": [
+                "Momentum Breakout",
+                "Trend Continuation"
+            ],
+            "estimated_holding_period_days": 1,
+            "risk_level": "Low",
+            "reason": "Momentum Breakout but low volume",
+            "priority_score": 38
+        },
+        {
+            "code": "ENKAI",
+            "price": 89.95,
+            "volumeChange": 58.1,
+            "rsi": 74.68,
+            "score": 8,
+            "strategies": [
+                "Trend Continuation"
+            ],
+            "estimated_holding_period_days": 1,
+            "risk_level": "Medium",
+            "reason": "Trend continues but RSI high",
+            "priority_score": 18
+        },
+        {
+            "code": "PETKM",
+            "price": 18.21,
+            "volumeChange": -23.4,
+            "rsi": 67.98,
+            "score": 8,
+            "strategies": [
+                "Trend Continuation"
+            ],
+            "estimated_holding_period_days": 1,
+            "risk_level": "Medium",
+            "reason": "Trend continues | Negative volume",
+            "priority_score": 8
+        },
+        {
+            "code": "ISCTR",
+            "price": 15.38,
+            "volumeChange": -23.7,
+            "rsi": 66.17,
+            "score": 8,
+            "strategies": [
+                "Trend Continuation"
+            ],
+            "estimated_holding_period_days": 1,
+            "risk_level": "Medium",
+            "reason": "Trend continues | Negative volume",
+            "priority_score": 8
+        },
+        {
+            "code": "KRDMD",
+            "price": 29.76,
+            "volumeChange": -40.0,
+            "rsi": 66.69,
+            "score": 8,
+            "strategies": [
+                "Trend Continuation"
+            ],
+            "estimated_holding_period_days": 1,
+            "risk_level": "Medium",
+            "reason": "Trend continues | Negative volume",
+            "priority_score": 8
+        },
+        {
+            "code": "ALARK",
+            "price": 107.2,
+            "volumeChange": -45.4,
+            "rsi": 56.68,
+            "score": 8,
+            "strategies": [
+                "Trend Continuation"
+            ],
+            "estimated_holding_period_days": 1,
+            "risk_level": "Medium",
+            "reason": "Trend continues | Negative volume",
+            "priority_score": 8
+        },
+        {
+            "code": "DOAS",
+            "price": 227.4,
+            "volumeChange": -31.3,
+            "rsi": 65.07,
+            "score": 8,
+            "strategies": [
+                "Trend Continuation"
+            ],
+            "estimated_holding_period_days": 1,
+            "risk_level": "Medium",
+            "reason": "Trend continues | Negative volume",
+            "priority_score": 8
+        },
+        {
+            "code": "HEKTS",
+            "price": 3.31,
+            "volumeChange": -16.5,
+            "rsi": 66.16,
+            "score": 8,
+            "strategies": [
+                "Trend Continuation"
+            ],
+            "estimated_holding_period_days": 1,
+            "risk_level": "Medium",
+            "reason": "Trend continues | Negative volume",
+            "priority_score": 8
+        },
+        {
+            "code": "AKBNK",
+            "price": 82.6,
+            "volumeChange": -30.2,
+            "rsi": 76.04,
+            "score": 8,
+            "strategies": [
+                "Trend Continuation"
+            ],
+            "estimated_holding_period_days": 1,
+            "risk_level": "High",
+            "reason": "Trend continues but RSI high | Negative volume & high RSI",
+            "priority_score": -2
+        },
+        {
+            "code": "EREGL",
+            "price": 27.86,
+            "volumeChange": -57.4,
+            "rsi": 72.19,
+            "score": 8,
+            "strategies": [
+                "Trend Continuation"
+            ],
+            "estimated_holding_period_days": 1,
+            "risk_level": "High",
+            "reason": "Trend continues but RSI high | Negative volume & high RSI",
+            "priority_score": -2
+        },
+        {
+            "code": "KCHOL",
+            "price": 202.0,
+            "volumeChange": -19.3,
+            "rsi": 75.93,
+            "score": 8,
+            "strategies": [
+                "Trend Continuation"
+            ],
+            "estimated_holding_period_days": 1,
+            "risk_level": "High",
+            "reason": "Trend continues but RSI high | Negative volume & high RSI",
+            "priority_score": -2
+        },
+        {
+            "code": "SAHOL",
+            "price": 104.9,
+            "volumeChange": -12.4,
+            "rsi": 83.59,
+            "score": 8,
+            "strategies": [
+                "Trend Continuation"
+            ],
+            "estimated_holding_period_days": 1,
+            "risk_level": "High",
+            "reason": "Trend continues but RSI high | Negative volume & high RSI",
+            "priority_score": -2
+        },
+        {
+            "code": "TUPRS",
+            "price": 238.6,
+            "volumeChange": -8.5,
+            "rsi": 78.87,
+            "score": 8,
+            "strategies": [
+                "Trend Continuation"
+            ],
+            "estimated_holding_period_days": 1,
+            "risk_level": "High",
+            "reason": "Trend continues but RSI high | Negative volume & high RSI",
+            "priority_score": -2
+        },
+        {
+            "code": "TCELL",
+            "price": 115.2,
+            "volumeChange": -35.5,
+            "rsi": 78.59,
+            "score": 8,
+            "strategies": [
+                "Trend Continuation"
+            ],
+            "estimated_holding_period_days": 1,
+            "risk_level": "High",
+            "reason": "Trend continues but RSI high | Negative volume & high RSI",
+            "priority_score": -2
+        },
+        {
+            "code": "FROTO",
+            "price": 109.8,
+            "volumeChange": -17.1,
+            "rsi": 77.48,
+            "score": 8,
+            "strategies": [
+                "Trend Continuation"
+            ],
+            "estimated_holding_period_days": 1,
+            "risk_level": "High",
+            "reason": "Trend continues but RSI high | Negative volume & high RSI",
+            "priority_score": -2
+        },
+        {
+            "code": "TTKOM",
+            "price": 64.75,
+            "volumeChange": -39.9,
+            "rsi": 70.04,
+            "score": 8,
+            "strategies": [
+                "Trend Continuation"
+            ],
+            "estimated_holding_period_days": 1,
+            "risk_level": "High",
+            "reason": "Trend continues but RSI high | Negative volume & high RSI",
+            "priority_score": -2
+        },
+        {
+            "code": "TOASO",
+            "price": 311.5,
+            "volumeChange": -35.3,
+            "rsi": 80.19,
+            "score": 8,
+            "strategies": [
+                "Trend Continuation"
+            ],
+            "estimated_holding_period_days": 1,
+            "risk_level": "High",
+            "reason": "Trend continues but RSI high | Negative volume & high RSI",
+            "priority_score": -2
+        },
+        {
+            "code": "TAVHL",
+            "price": 343.0,
+            "volumeChange": -47.9,
+            "rsi": 72.47,
+            "score": 8,
+            "strategies": [
+                "Trend Continuation"
+            ],
+            "estimated_holding_period_days": 1,
+            "risk_level": "High",
+            "reason": "Trend continues but RSI high | Negative volume & high RSI",
+            "priority_score": -2
+        }
+    ]
+}

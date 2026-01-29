@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pandas
+pandas_ta
+requests
+numpy
+yfinance
+firebase-admin
